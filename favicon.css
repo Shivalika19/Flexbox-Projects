@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    font-family:"Waltograph Medium";
+    
+  }
+  
+  .header{
+    width:100%;
+    height:200px;
+   font-size:30px;
+    background-color:black;
+    color:yellow;
+    font-size: 30px;;
+ }
+ .header h1{
+   padding-top:50px;
+   color:white;
+ }
+ .header2{
+  display:flex;
+  width:100%;
+ }
+ .div1, .div2 ,.div3{
+  width:48%; 
+  padding:10px;
+  background-color: yellow;
+  text-align:center;
+  font-size:30px;
+
+ }
+ .header2 :hover{
+   background-color: blanchedalmond;
+ }
+ .header2 a{
+   text-decoration: none;
+   color:black;
+ }
+ .header2 a:active{
+   color:orange;
+ }
+ .section1{
+   display:flex;
+   width:100%;
+   flex-wrap: wrap;
+ }
+ .secton1 {
+   background-color: blanchedalmond;
+   flex-wrap: wrap;
+   
+ }
+ p{
+   font-size:30px;
+ }
+img{
+  width:340px; 
+  height:350px;
+ 
+}
+#div1,#div2,#div3,#div5,#div6,#div7{
+  width:25%;
+
+  background-color:blanchedalmond;
+  padding:20px;
+
+
+}
+ul{
+  width:150px;
+  height:100px;
+ 
+ 
+}
+ul li {
+  list-style-type:none;
+
+  text-decoration: none;
+}
+ul li a {
+  font-size: 30px;
+
+  text-decoration: none;
+}
+#div4,#div8{
+  width:13.9%;
+ text-align:center;
+  font-size: 25px;
+  padding:15px;
+  }
+
+  .foot{
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+    background-color:yellow;
+    font-size: 30px;
+   
+  }
+ .foot a{
+   text-decoration: none;
+   color:black;
+ }
