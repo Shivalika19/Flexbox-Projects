@@ -35,3 +35,51 @@ p{
         flex:0 0 320px;
     }
 }
+
+/*-------- HEADER PART----*/
+
+.site-header{
+    height:400px;
+    display:flex;
+    flex-flow:column;
+    
+}
+.site-info{
+    flex-grow:1;
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+     }
+    
+     .site-title{
+         margin:0;
+         font-size:2em;
+         font-weight:300;
+         text-align: center;
+         color:white;
+         text-transform: uppercase;
+     }
+
+     .site-description{
+
+        text-align:center;
+        color:yellow;
+        font-size:1.2em;
+        margin-top:-.8;
+         font-style:italic;
+     }
+
+     .main-menu{
+      padding:1em 1em;
+      color:black;
+      background-color: yellow;
+
+     }
+     @media screen and (min-width:1120px)
+     {
+         .site-size{
+             font-size: 4em;
+            
+         }
+
+     }
