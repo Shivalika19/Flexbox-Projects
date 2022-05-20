@@ -10,16 +10,22 @@ body{
     font-family:'Asap',sans-serif;
 }
 header ,footer{
-    background-color:black;
+    background-color:blueviolet;
+
     height:150px;
     
 }
 .sidebar-right{
-    background-color:blue;
+    background-color:bisque;
     color:white;
 }
+img{
+    display:block;
+    width:100%;
+    height:auto;
+}
 h1{
- color:red;
+ color:white;
  margin:0;
 
 }
@@ -35,7 +41,6 @@ p{
         flex:0 0 320px;
     }
 }
-
 /*-------- HEADER PART----*/
 
 .site-header{
@@ -63,7 +68,7 @@ p{
      .site-description{
 
         text-align:center;
-        color:yellow;
+        color:bisque;
         font-size:1.2em;
         margin-top:-.8;
          font-style:italic;
@@ -72,7 +77,7 @@ p{
      .main-menu{
       padding:1em 1em;
       color:black;
-      background-color: yellow;
+      background-color:lightpink;
 
      }
      @media screen and (min-width:1120px)
@@ -82,4 +87,62 @@ p{
             
          }
 
+     }
+     /*---------START THE POSTS STYLE------*/
+     .main-content-area{
+
+        padding:2em;
+
+     }
+     .post{
+         background-color:white;
+         margin-bottom: 1em;
+         
+         
+     }
+     .post a{
+         color:black;
+         text-decoration: none;
+        
+     }
+     .post-content{
+         padding:0 40px 0px;
+     }
+     .post-content h2{
+            background-color:bisque;
+            color:black;
+            padding:20px;
+            text-align:center;
+            margin:0 -40px 30px;
+     }
+
+     @media screen and (min-width:810px) 
+     {
+         .posts{
+                display:flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                   
+         }
+         
+         .post{
+            flex-basis:49%;
+
+         }
+     }
+
+
+     @media screen and (min-width:1120px) {
+         .post-one-third{
+                        flex-basis:32%;
+         }
+
+   .post-half{
+       flex-basis:49%;
+   }
+
+   .post-full{
+       flex-basis:100%;
+   }
+   
      }
